@@ -17,8 +17,9 @@ const Faq = () => {
       <div className="container faq">
         <div className="u-title" data-aos="fade-up">
           <MdOutlineLibraryBooks color="#4b4586" size={30} />
-          <h2>FAQs</h2>
+          <h2>What About Recruitment?</h2>
           <p className="u-text-small">
+          Our superlative recruitment process does not only allow us to hit our hiring goals but it also facilitates us to accomplish tasks with efeciency.
           </p>
         </div>
         <div className="questions">

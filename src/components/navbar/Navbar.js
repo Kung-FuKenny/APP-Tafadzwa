@@ -20,9 +20,9 @@ const Navbar = () => {
   return (
     <nav className="navbar container"> 
       <div className="logo">
-       <SiAnaconda color="#fff" size={33}/>
+       <img src="../../assets/layer1.svg"/>
         <p className="logo-text">
-        <span><img src="../../assets/log2.png"/></span>
+        <span></span>
         </p>
       </div>
       <menu>
@@ -34,13 +34,13 @@ const Navbar = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#features">Features</a>
+            <a href="#features">About Us</a>
           </li>
           <li>
-            <a href="#download">Download</a>
+            <a href="#faqs">Recruitment</a>
           </li>
           <li>
-            <a href="#subscribe">Subscribe</a>
+            <a href="#download">Target</a>
           </li>
 
           {/* <li>
@@ -49,7 +49,7 @@ const Navbar = () => {
             </a>
           </li> */}
           <li className="nav-btn">
-            <Button text={"Learn More"} btnClass={"btn-dark"} href={"#faq"} />
+            <Button text={"Subscribe"} btnClass={"btn-dark"} href={"#subscribe"} />
           </li>
         </ul>
       </menu>

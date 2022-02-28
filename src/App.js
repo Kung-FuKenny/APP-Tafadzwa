@@ -24,9 +24,9 @@ function App() {
         <Header />
       </header>
       <Features data-aos="fade-up" />
+      <Faq />
       <Download />
       <Subscribe />
-      <Faq />
       <Footer />
     </>
   );
