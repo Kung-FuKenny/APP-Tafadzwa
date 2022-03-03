@@ -13,9 +13,9 @@
 }
 
 .title p {
+  margin: auto;
   width: 50%;
   min-width: 40rem;
-  margin: 0 auto;
   color: var(--dark-text);
 }
 
@@ -30,7 +30,7 @@
   text-align: center;
 }
 .features-left img {
-  width: 65%;
+  width: 60%;
 }
 .features-right {
   flex: 1;

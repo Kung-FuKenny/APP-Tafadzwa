@@ -1,3 +1,9 @@
+//import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import MultiItemCarousel from "./MultiItemCarousel";
+//import Slider from './silder';
 import "./App.css";
 // import Navbar from "./components/navbar/Navbar";
 // import Header from "./components/header/Header";
@@ -26,6 +32,7 @@ function App() {
       <Features data-aos="fade-up" />
       <Faq />
       <Download />
+      <MultiItemCarousel />
       <Subscribe />
       <Footer />
     </>

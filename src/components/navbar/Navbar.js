@@ -5,6 +5,7 @@ import { SiAnaconda } from "react-icons/si";
 //import logo  from "C:\Users\HP\Desktop\NEWWEB\Tafadzwa\src\assets\log.png";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
+import logo from "../../assets/log.png";
 
 import "./Navbar.css";
 
@@ -20,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className="navbar container"> 
       <div className="logo">
-       <img src="../../assets/layer1.svg"/>
+      <img src={logo} alt="logo"  />
         <p className="logo-text">
         <span></span>
         </p>
@@ -37,10 +38,13 @@ const Navbar = () => {
             <a href="#features">About Us</a>
           </li>
           <li>
-            <a href="#faqs">Recruitment</a>
+            <a href="#faq">Recruitment</a>
           </li>
           <li>
             <a href="#download">Target</a>
+          </li>
+          <li>
+            <a href="#career">Career</a>
           </li>
 
           {/* <li>

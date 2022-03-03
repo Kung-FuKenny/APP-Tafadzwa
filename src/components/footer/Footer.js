@@ -37,25 +37,21 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <div className="footer-contact u-text-small">
             <p>
-              <FaMapMarkerAlt /> &nbsp; Address: 
             </p>
             <p>
-              <FaPhoneAlt /> &nbsp; Phone: +1230 123 1231.
+              <FaPhoneAlt /> &nbsp; : +27 11 438 4300
             </p>
             <p>
-              <FaFax /> &nbsp; Fax: +12342762178
+              <FaEnvelope /> &nbsp; : zoliswa@tafadzwa.co.za
             </p>
             <p>
-              <FaEnvelope /> &nbsp; Email: info@socialx.com
-            </p>
-            <p>
-              <FaGlobe /> &nbsp; Website: www.socialx.com
+              <FaGlobe /> &nbsp; : www.tafadzwa.co.za
             </p>
           </div>
         </div>
         <div className="footer-box">
           <img src={logo} alt="logo" />
-          <p className="u-text-small">&copy; Copyright 2021. SocialX.com</p>
+          <p className="u-text-small">&copy; Copyright 2022. <a href="href=">Webparam</a></p>
         </div>
       </div>
     </section>

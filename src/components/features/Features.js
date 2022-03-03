@@ -21,9 +21,7 @@ const Features = () => {
           <BsFillBookmarkStarFill color="#4b4586" size={30} />
           <h2>What Do We Do?</h2>
           <p className="u-text-small">
-          Strategy Development, Implementation and Integration Strategy is the scope of an
-organisation over the long-term: which achieves advantage for the organisation through its 
-configuration of resources to fulfil stakeholder expectations.
+          Strategy Development, Implementation and Integration Strategy is the scope of anorganisation over the long-term: which achieves advantage for the organisation through its configuration of resources to fulfil stakeholder expectations.
           </p>
         </div>
         <div className="features-content">

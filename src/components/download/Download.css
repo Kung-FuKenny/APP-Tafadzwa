@@ -24,14 +24,14 @@ section#download {
   background: var(--color-white);
   transform: translateX(-50%);
 }
-.download-icons {
+/*.download-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2rem;
-}
+}*/
 
-.download-icon {
+/*.download-icon {
   margin: 1rem 2rem;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -41,4 +41,4 @@ section#download {
   align-items: center;
   padding: 1rem;
   font-size: 1.5rem;
-}
+}*/

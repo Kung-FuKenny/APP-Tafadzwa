@@ -27,7 +27,7 @@ const Header = () => {
             share the common value of making a difference through people.
           </p>
           <div className="header-cta">
-            <Button text={"Click Here"} btnClass={"btn-light"} href={"#"} />
+            <Button text={"Click Here"} btnClass={"btn-light"} href={"#features"} />
           </div>
         </div>
         <div className="header-right" data-aos="fade-left">

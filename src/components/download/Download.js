@@ -17,7 +17,6 @@ const Download = () => {
       <div className="container download" data-aos="fade-up">
         <h2> OUR INDUSTRY FOCUS</h2>
         <p className="u-text-small">
-          These are the organisations we primarily focus on.
         </p>
         <div value={{ size: "15" }}>
           <div className="download-icons">
@@ -29,6 +28,27 @@ const Download = () => {
             </div>
             <div className="download-icon">
             <h3><p>Parastatals and Public Sectors</p></h3>
+            </div>
+            <div className="download-icon">
+            <h3><p>Manufacturing</p></h3>
+            </div>
+            <div className="download-icon">
+            <h3><p>Transport & Logistics</p></h3>
+            </div>
+            <div className="download-icon">
+            <h3><p>Information Technology</p></h3>
+            </div>
+            <div className="download-icon">
+            <h3><p>Telecommunication</p></h3>
+            </div>
+            <div className="download-icon">
+            <h3><p>Mining and Engineering</p></h3>
+            </div>
+            <div className="download-icon">
+            <h3><p>Construction</p></h3>
+            </div>
+            <div className="download-icon">
+            <h3><p>Petro-chemical Industry</p></h3>
             </div>
           </div>
         </div>
