@@ -4,9 +4,14 @@ section#download {
   color: #fff;
 }
 
+.download p{
+  font-size: 20px;
+  font-weight: 200;
+}
+
 .download h2 {
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.4;
   text-transform: uppercase;
   margin: 1.5rem 0;

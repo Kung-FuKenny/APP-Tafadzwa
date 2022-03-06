@@ -60,7 +60,7 @@ const carouselProperties = {
 const MultiItemCarousel = () => {
   return (
     <div style={{ margin: "30px" }} className="carousel">
-      <h1>Our Partners</h1>
+      <h1>OUR PARTNERS</h1>
       <Slider {...carouselProperties}>
         {multiData.map((item) => (
           <Card item={item} />

@@ -22,6 +22,9 @@ import {
   Footer,
 } from "./components";
 
+
+
+
 function App() {
   return (
     <>
@@ -33,7 +36,7 @@ function App() {
       <Faq />
       <Download />
       <MultiItemCarousel />
-      <Subscribe />
+      {/* <Subscribe /> */}
       <Footer />
     </>
   );

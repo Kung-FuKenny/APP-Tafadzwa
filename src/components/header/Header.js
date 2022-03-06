@@ -19,12 +19,12 @@ const Header = () => {
       <div className="container header">
         <div className="header-left" data-aos="fade-right">
           <h1>
-            <span>100%</span>
-            <span>Black Women Owned</span>
+            <span>Specialist in</span>
+            <span>Management Consulting</span>
           </h1>
           <p className="u-text-small">
-            Tafadzwa Consulting is a Black female owned entity that was established in 2004 that brings together a team of dedicated professionals who
-            share the common value of making a difference through people.
+            Tafadzwa Consulting was sucessfully established in 2004 to bring together professionals dedicated to
+            share common values of making a remarkable difference in the industry, offering all elements of our services into creating robust solution.
           </p>
           <div className="header-cta">
             <Button text={"Click Here"} btnClass={"btn-light"} href={"#features"} />

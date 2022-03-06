@@ -1,7 +1,7 @@
 export const questions = [
   {
     id: 1,
-    title: "A) GENERAL RECRUITMENT",
+    title: "A) TALENT ACQUISITION",
     answer: "Tafadzwa Consulting has hands on involvement in the Recruitment, Headhunting and Talent Management. Our recruitment process is tailored to suit our client's staffing needs. Our Management has hands on involvement in the Talent Sourcing Process. Our recruitment process is tailored to suit our client's staffing needs.",
   },
   {

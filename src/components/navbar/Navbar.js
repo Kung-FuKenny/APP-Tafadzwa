@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
-import { SiAnaconda } from "react-icons/si";
+//import { SiAnaconda } from "react-icons/si";
+
 //import logo  from "C:\Users\HP\Desktop\NEWWEB\Tafadzwa\src\assets\log.png";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
@@ -19,6 +20,7 @@ const Navbar = () => {
     
   };
   return (
+  
     <nav className="navbar container"> 
       <div className="logo">
       <img src={logo} alt="logo"  />
@@ -44,7 +46,7 @@ const Navbar = () => {
             <a href="#download">Target</a>
           </li>
           <li>
-            <a href="#career">Career</a>
+            <a href="https://t-career.vercel.app/">Career</a>
           </li>
 
           {/* <li>
@@ -52,16 +54,13 @@ const Navbar = () => {
               Get Started
             </a>
           </li> */}
-          <li className="nav-btn">
-            <Button text={"Subscribe"} btnClass={"btn-dark"} href={"#subscribe"} />
-          </li>
         </ul>
       </menu>
       <div className="menu-icons" onClick={toggleMenu}>
         {showMenu ? (
-          <RiCloseLine color="#fff" size={30} />
+          <RiCloseLine color="#4b4586" size={30} />
         ) : (
-          <AiOutlineBars color="#fff" size={27} />
+          <AiOutlineBars color="#4b4586" size={27} />
         )}
       </div>
     </nav>
