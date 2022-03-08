@@ -7,7 +7,7 @@ export const FeatureList = [
     id: 1,
     icon: <FaAccessibleIcon color="#4b4586" size={22} />,
     heading: "Business Process Mapping",
-    text: ". A business process illustration is produced. The first step in gaining control over an organization is to know and understand the basic processes."
+    text: "A business process illustration is produced. The first step in gaining control over an organization is to know and understand the basic processes."
   },
   {
     id: 2,
