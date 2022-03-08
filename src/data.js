@@ -16,6 +16,7 @@ import multicar8 from "./assets/multicar8.jpeg";
 import multicar9 from "./assets/multicar9.jpeg";
 import multicar10 from "./assets/multicar10.jpeg";
 import multicar11 from "./assets/multicar11.jpg";
+import multicar12 from "./assets/multicar12.jpg";
 
 export const data = [image1, image2, image3, image4, image5, image6];
 export const multiData = [
@@ -27,6 +28,7 @@ export const multiData = [
   multicar4,
   multicar5,
   multicar9,
+  multicar12,
   multicar6,
   multicar7,
   multicar8,
