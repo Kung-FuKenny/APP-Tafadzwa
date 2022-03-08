@@ -27,7 +27,7 @@ import {
 
 function App() {
   return (
-    <>
+    <div>
       <header className="header-bg">
         <Navbar />
         <Header />
@@ -38,7 +38,7 @@ function App() {
       <MultiItemCarousel />
       {/* <Subscribe /> */}
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,4 +1,5 @@
 .question {
+  max-width: 100%;
   border: 1px solid var(--light-blue);
   border-radius: 3px;
   width: 90%;

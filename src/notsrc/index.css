@@ -77,7 +77,3 @@ section {
   margin: 0 auto;
   color: var(--dark-text);
 }
-
-#canvasWrapper {
-	max-width: initial;
-}

@@ -16,21 +16,19 @@ const Footer = () => {
         <div className="footer-box">
           <h4>Useful Links</h4>
           <div className="footer-links">
-            <a href="#">&bull; Support</a>
-            <a href="#">&bull; About</a>
-            <a href="#">&bull; Learn</a>
-            <a href="#">&bull; Hosting</a>
-            <a href="#">&bull; Messenger</a>
+            <a href="#">&bull; Home</a>
+            <a href="#features">&bull; About</a>
+            <a href="#faq">&bull; Recruitment</a>
+            <a href="#download">&bull; Target</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSePliqqVx3bKY01egx2OIPGndveTCC-D88xOwp9P1_RAXiu2g/viewform?usp=sf_link">&bull; Application</a>
           </div>
         </div>
         <div className="footer-box">
           <h4>Support</h4>
           <div className="footer-links">
-            <a href="#">&bull; Support</a>
-            <a href="#">&bull; About</a>
-            <a href="#">&bull; Learn</a>
-            <a href="#">&bull; Hosting</a>
-            <a href="#">&bull; Messenger</a>
+          <a href="https://www.facebook.com/Tafadzwa-Consulting-530892300334863/?_rdr">&bull; Facebook</a>
+            <a href="https://twitter.com/tafadzwaconsult">&bull; Twitter</a>
+            <a href="https://www.linkedin.com/company/tafadzwa-consulting">&bull; LinkedIn</a>
           </div>
         </div>
         <div className="footer-box">
@@ -51,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="footer-box">
           <img src={logo} alt="logo" />
-          <p className="u-text-small">&copy; Copyright 2022. <a href="href=">Webparam</a></p>
+          <p className="u-text-small">&copy; Copyright 2022. <a href="href=webparam.co.za">Webparam</a></p>
         </div>
       </div>
     </section>

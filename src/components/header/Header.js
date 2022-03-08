@@ -19,8 +19,8 @@ const Header = () => {
       <div className="container header">
         <div className="header-left" data-aos="fade-right">
           <h1>
-            <span>Specialist in</span>
-            <span>Management Consulting</span>
+            <span>Talent Aqcuisition</span>
+            <span>And Management Consulting</span>
           </h1>
           <p className="u-text-small">
             Tafadzwa Consulting was sucessfully established in 2004 to bring together professionals dedicated to
