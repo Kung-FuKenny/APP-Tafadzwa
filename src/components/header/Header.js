@@ -19,7 +19,8 @@ const Header = () => {
       <div className="container header">
         <div className="header-left" data-aos="fade-right">
           <h1>
-            <span>Talent Aqcuisition</span>
+            <span>Specialist in</span>
+            <span>Talent Acquisition</span>
             <span>And Management Consulting</span>
           </h1>
           <p className="u-text-small">
