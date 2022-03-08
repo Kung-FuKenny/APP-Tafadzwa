@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="footer-box">
           <img src={logo} alt="logo" />
-          <p className="u-text-small">&copy; Copyright 2022. <a href="href=webparam.co.za">Webparam</a></p>
+          <p className="u-text-small">&copy; Copyright 2022. <a href="webparam.co.za">Webparam</a></p>
         </div>
       </div>
     </section>
