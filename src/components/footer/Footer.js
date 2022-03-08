@@ -40,7 +40,7 @@ const Footer = () => {
               <FaPhoneAlt /> &nbsp; : +27 11 438 4300
             </p>
             <p>
-              <FaEnvelope /> &nbsp; : zoliswa@tafadzwa.co.za
+              <FaEnvelope /> &nbsp; : reception@tafadzwa.co.za
             </p>
             <p>
               <FaGlobe /> &nbsp; : www.tafadzwa.co.za
