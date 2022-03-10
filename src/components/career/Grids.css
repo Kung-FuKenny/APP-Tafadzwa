@@ -1,0 +1,76 @@
+.read-more-link{
+    color: blueviolet;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  .extra-content{
+    color: cornflowerblue;
+    font-weight: 500;
+  }
+  
+  section#features {
+    background: #4b4586;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .features button {
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+    border: 2px solid;
+    color: #4b4586;
+    margin: 3rem;
+    height: 4rem;
+    width: auto;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .title h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 1.5rem 0;
+  }
+  
+  .title p {
+    margin: auto;
+    width: 50%;
+    min-width: 40rem;
+    color: #fff;
+  }
+  
+  .features-content {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+  
+  .features-left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .features-left img {
+    width: 60%;
+  }
+  
+  .features-right {
+    flex: 1;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .features-content {
+      flex-direction: column;
+    }
+  }

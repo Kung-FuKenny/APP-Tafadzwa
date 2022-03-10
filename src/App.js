@@ -7,7 +7,7 @@ import MultiItemCarousel from "./MultiItemCarousel";
 import "./App.css";
 // import Navbar from "./components/navbar/Navbar";
 // import Header from "./components/header/Header";
-// import Features from "./components/features/Features";
+//import Features1 from "./components/features/Features1";
 // import Download from "./components/download/Download";
 // import Subscribe from "./components/subscribe/Subscribe";
 // import Footer from "./components/footer/Footer";

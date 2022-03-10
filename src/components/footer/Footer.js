@@ -1,59 +1,40 @@
-import React from "react";
-import "./Footer.css";
-import logo from "../../assets/logo.png";
-import {
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaFax,
-  FaEnvelope,
-  FaGlobe,
-} from "react-icons/fa";
+import React from 'react'
+import './Footer.css'
+import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
-  return (
-    <section id="footer">
-      <div className="container footer">
-        <div className="footer-box">
-          <h4>Useful Links</h4>
-          <div className="footer-links">
-            <a href="#">&bull; Home</a>
-            <a href="#features">&bull; About</a>
-            <a href="#faq">&bull; Recruitment</a>
-            <a href="#download">&bull; Target</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSePliqqVx3bKY01egx2OIPGndveTCC-D88xOwp9P1_RAXiu2g/viewform?usp=sf_link">&bull; Application</a>
-          </div>
+    return (
+        <div className='footer'>
+            <div className='footer-container'>
+                <div className='left'>
+                    <div className='location'>
+                        <FaSearchLocation size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />
+                        <div>
+                            <p> Ground Floor, Twickenham Building,<br/>The Campus, Cnr Main & Sloane Street</p>
+                            <h4>Bryanston, Johannesburg, 2021</h4>
+                        </div>
+                    </div>
+                    <div className='phone'>
+                        <h4><FaPhone size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />+27 11 438 4300</h4>
+                    </div>
+                    <div className='email'>
+                        <h4><FaMailBulk size={20} style={{ color: '#ffffff', marginRight: '2rem' }} /> reception@tafadzwa.co.za</h4>
+                    </div>
+                </div>
+                <div className='right'>
+                      <h4>About Tafadzwa Consulting</h4>
+                    <p>We deliver the best consistent quality 
+service, working in partnership with our clients and developing sustainable value-adding long-term relationship"</p>
+                    <div className='social'>
+                        <FaFacebook size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                        <FaTwitter size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                        <FaLinkedin size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div className="footer-box">
-          <h4>Support</h4>
-          <div className="footer-links">
-          <a href="https://www.facebook.com/Tafadzwa-Consulting-530892300334863/?_rdr">&bull; Facebook</a>
-            <a href="https://twitter.com/tafadzwaconsult">&bull; Twitter</a>
-            <a href="https://www.linkedin.com/company/tafadzwa-consulting">&bull; LinkedIn</a>
-          </div>
-        </div>
-        <div className="footer-box">
-          <h4>Contact Us</h4>
-          <div className="footer-contact u-text-small">
-            <p>
-            </p>
-            <p>
-              <FaPhoneAlt /> &nbsp; : +27 11 438 4300
-            </p>
-            <p>
-              <FaEnvelope /> &nbsp; : reception@tafadzwa.co.za
-            </p>
-            <p>
-              <FaGlobe /> &nbsp; : www.tafadzwa.co.za
-            </p>
-          </div>
-        </div>
-        <div className="footer-box">
-          <img src={logo} alt="logo" />
-          <p className="u-text-small">&copy; Copyright 2022. <a href="webparam.co.za">Webparam</a></p>
-        </div>
-      </div>
-    </section>
-  );
-};
+    )
+}
 
 export default Footer;

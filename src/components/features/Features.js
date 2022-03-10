@@ -17,15 +17,6 @@ const Features = () => {
   return (
     <section id="features">
       <div className="container features">
-        <div className="title" data-aos="fade-up">
-          
-        <BsFillBookmarkStarFill color="#4b4586" size={30} />
-          <h2>Who Are We?</h2>
-          <p className="u-text-small">
-          Tafadzwa Consulting was established late in 2003 and incorporated in 2004, totalling to eighteen years of talent acquisition experience. We always thrive to be the best business partner to all our clients, in all aspects related to specialized and 
-professional staffing and contracting.
-          </p>
-        </div>
         <div className="title-2" data-aos="fade-up">
         <BsFillBookmarkStarFill color="#4b4586" size={30} />
           <h2>What Do We Do?</h2>
