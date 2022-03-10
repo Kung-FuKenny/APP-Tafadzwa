@@ -1,5 +1,9 @@
 section#features {
   max-width: 100%;
+  background: url(../../assets/subscribe-bgq.png);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
 .title {
