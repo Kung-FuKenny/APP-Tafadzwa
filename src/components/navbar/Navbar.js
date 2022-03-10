@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
+// import { Link } from "react-router-dom";
+// import { Button } from "react-bootstrap";
+
 //import { SiAnaconda } from "react-icons/si";
 
 //import logo  from "C:\Users\HP\Desktop\NEWWEB\Tafadzwa\src\assets\log.png";
@@ -21,7 +24,7 @@ const Navbar = () => {
   };
   return (
   
-    <nav className="navbar container"> 
+    <nav className="navbar container" sticky="top"> 
       <div className="logo">
       <img src={logo} alt="logo"  />
         <p className="logo-text">

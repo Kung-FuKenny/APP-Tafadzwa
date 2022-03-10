@@ -1,3 +1,16 @@
+#question {
+max-width: 100%;
+  background: url(../../assets/subscribe-bgq.png);
+  /* background: #4b4586; */
+  text-align: center;
+  text-align: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
 .question {
   max-width: 100%;
   border: 1px solid var(--light-blue);
