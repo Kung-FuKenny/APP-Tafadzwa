@@ -51,6 +51,9 @@ const Navbar = () => {
           <li>
             <a href="https://t-career.vercel.app/">Career</a>
           </li>
+          <li>
+            <a href="https://t-career.vercel.app/#faq/">Contact</a>
+          </li>
 
           {/* <li>
             <a href="#" className="btn btn-dark">

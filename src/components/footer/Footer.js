@@ -26,12 +26,11 @@ const Footer = () => {
                     <p>We deliver the best consistent quality 
 service, working in partnership with our clients and developing sustainable value-adding long-term relationship"</p>
                     <div className='social'>
-                        <FaFacebook size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
-                        <FaTwitter size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
-                        <FaLinkedin size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
+                        <FaFacebook size={30} style={{ color: '#ffffff', marginRight: '1rem' }} href="https://www.facebook.com/Tafadzwa-Consulting-530892300334863/?_rdr" />
+                        <FaTwitter size={30} style={{ color: '#ffffff', marginRight: '1rem' }} href="https://twitter.com/tafadzwaconsult"/>
+                        <FaLinkedin size={30} style={{ color: '#ffffff', marginRight: '1rem' }} href="https://www.linkedin.com/company/tafadzwa-consulting" />
                     </div>
                 </div>
-
             </div>
         </div>
     )
