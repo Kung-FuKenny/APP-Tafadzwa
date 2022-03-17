@@ -26,7 +26,17 @@ const Features = () => {
               is the scope of an organisation over the long-term:
               which achieves advantage for the organisation through its configuration of resources to fulfil stakeholder expectations.
           </p>
-
+          <h2>Our Vision</h2>
+            <p>
+              To be the best business partner to all our clients, in all aspects related
+              to specialized and professional staffing and contracting.
+            </p>
+          <h2>Our Mission</h2>
+          <p>
+            To build long-term partnerships based on trust and integrity and through business ethics that
+            will result in greater profits for both parties. By facilitating the development of sustainable
+            organisations that have sound business and financial principles, we become a trusted advisor
+          </p>
           <h2>Our Values</h2>
               <p>
                   Our Values are to consistently deliver the best quality service,
