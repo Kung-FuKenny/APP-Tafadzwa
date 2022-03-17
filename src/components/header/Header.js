@@ -7,6 +7,7 @@ import { BsMouse } from "react-icons/bs";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {

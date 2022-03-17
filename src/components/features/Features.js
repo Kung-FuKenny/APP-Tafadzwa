@@ -4,6 +4,9 @@ import { BsFillBookmarkStarFill } from "react-icons/bs";
 import phoneFeatures from "../../assets/phone-features.png";
 import Feature from "./Feature";
 import { FeatureList } from "./data";
+import Navbar from "../navbar/Navbar";
+import Footer from "../footer/Footer";
+import MultiItemCarousel from "../../MultiItemCarousel";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,6 +18,8 @@ const Features = () => {
     });
   }, []);
   return (
+    <>
+    <Navbar/>
     <section id="features">
       <div className="container features">
         <div className="title-2" data-aos="fade-up">
@@ -23,6 +28,36 @@ const Features = () => {
           <p className="u-text-small">
           Strategy Development, Implementation and Integration Strategy is the scope of an organisation over the long-term: which achieves advantage for the organisation through its configuration of resources to fulfil stakeholder expectations.
           </p>
+          <h2>Our Vision</h2>
+            <p>
+              To be the best business partner to all our clients, in all aspects related
+              to specialized and professional staffing and contracting.
+            </p>
+          <h2>Our Mission</h2>
+          <p>
+            To build long-term partnerships based on trust and integrity and through business ethics that
+            will result in greater profits for both parties. By facilitating the development of sustainable
+            organisations that have sound business and financial principles, we become a trusted advisor
+          </p>
+          <h2>Our Values</h2>
+              <p>
+                  Our Values are to consistently deliver the best quality service,
+                  working in partnership with our clients and developing sustainable
+                  value-adding long-term relationships through integrity and professionalism.
+              </p>
+
+          <h2>Our Value Proposition</h2>
+             <p>
+                Our services weave into each other to create a total robust solution, from assisting
+                organisations in developing their organizational strategies, operational, unit and 
+                departmental strategies to ensuring the timely Implementation of those strategies.
+                Internal audit assures that business processes have all controls needed, and
+                are working effectively. Internal audit will also identify risks associated with these processes. In
+                additional it will identify risks associated with operations, employees, legislation compliance and
+                governance. The risk management processes will enable quantification of risks, identification of
+                risk owners, creation of sub-tasks to mitigate the risks and identification of risk mitigation
+                strategies.
+             </p>
         </div>
         <div className="features-content">
           <div className="features-left" data-aos="fade-right">
@@ -41,6 +76,9 @@ const Features = () => {
         </div>
       </div>
     </section>
+    <MultiItemCarousel />
+    <Footer/>
+    </>
   );
 };
 

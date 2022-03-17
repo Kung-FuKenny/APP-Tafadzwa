@@ -34,8 +34,7 @@ import {
 function App() {
   return (
     <div className='app'>  
-    {/* <Header/> */}
-    <Features data-aos="fade-up" />
+    <Header/>
     </div>
     // <div>
     //   <header className="header-bg">

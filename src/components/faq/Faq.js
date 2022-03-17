@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import { questions } from "./data.js";
 import Question from "./Question";
 import { MdOutlineLibraryBooks } from "react-icons/md";
-
+import Navbar from "../navbar/Navbar.js";
+import Footer from "../footer/Footer.js";
+import Download from "../download/Download.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,8 +15,18 @@ const Faq = () => {
     });
   }, []);
   return (
+    <>
+    <Navbar/>
+    {/* <div className="imglist">
+        <img 
+        src="../../../public/img/back.jpg"
+        alt="img1"
+        width={20}
+        height={20}
+        />
+        </div> */}
     <section id="faq">
-      <div className="container faq">
+      <div className="container-faq">
         <div className="u-title" data-aos="fade-up">
           <MdOutlineLibraryBooks color="#4b4586" size={30} />
           <h2>What About Recruitment?</h2>
@@ -33,6 +45,8 @@ const Faq = () => {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   );
 };
 
