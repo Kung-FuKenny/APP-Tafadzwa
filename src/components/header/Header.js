@@ -4,9 +4,17 @@ import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
 import phoneHeader from "../../assets/phone-header-bg.png";
 import { BsMouse } from "react-icons/bs";
+import Navbar from "../navbar/Navbar";
+import Footer from "../footer/Footer";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
 
 const Header = () => {
   useEffect(() => {
@@ -15,6 +23,8 @@ const Header = () => {
     });
   }, []);
   return (
+    <>
+    <Navbar/>
     <section id="header">
       <div className="container header">
         <div className="header-left" data-aos="fade-right">
@@ -41,6 +51,8 @@ const Header = () => {
         </a>
       </div>
     </section>
+    <Footer/>
+    </>
   );
 };
 

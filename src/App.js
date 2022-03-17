@@ -21,24 +21,34 @@ import {
   Faq,
   Footer,
 } from "./components";
+import {
+	BrowserRouter as Router,
+  Routes,
+	Route,
+	Link
+} from 'react-router-dom';
 
 
 
 
 function App() {
   return (
-    <div>
-      <header className="header-bg">
-        <Navbar />
-        <Header />
-      </header>
-      <Features data-aos="fade-up" />
-      <Faq />
-      <Download />
-      <MultiItemCarousel />
-      {/* <Subscribe /> */}
-      <Footer />
+    <div className='app'>  
+    {/* <Header/> */}
+    <Features data-aos="fade-up" />
     </div>
+    // <div>
+    //   <header className="header-bg">
+    //     <Navbar />
+    //     <Header />
+    //   </header>
+    //   <Features data-aos="fade-up" />
+    //   <Faq />
+    //   <Download />
+    //   <MultiItemCarousel />
+    //   {/* <Subscribe /> */}
+    //   <Footer />
+    // </div>
   );
 }
 
