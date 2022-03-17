@@ -34,7 +34,7 @@ import {
 function App() {
   return (
     <div className='app'>  
-    <Header/>
+    <Faq />
     </div>
     // <div>
     //   <header className="header-bg">
