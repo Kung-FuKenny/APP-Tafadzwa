@@ -1,21 +1,17 @@
 //import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 //import 'bootstrap/dist/css/bootstrap.min.css';
-import MultiItemCarousel from "./MultiItemCarousel";
+//import MultiItemCarousel from "./MultiItemCarousel";
 //import Slider from './silder';
 import "./App.css";
-// import Navbar from "./components/navbar/Navbar";
-// import Header from "./components/header/Header";
-//import Features1 from "./components/features/Features1";
-// import Download from "./components/download/Download";
-// import Subscribe from "./components/subscribe/Subscribe";
-// import Footer from "./components/footer/Footer";
-
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from "./components/home/home";
+import Features from './components/features/Features';
+import Welcome from "./components/welcome";
 import {
   Navbar,
   Header,
-  Features,
   Download,
   Subscribe,
   Faq,
@@ -23,22 +19,19 @@ import {
 } from "./components";
 
 
-
-
 function App() {
   return (
-    <div>
-      <header className="header-bg">
-        <Navbar />
-        <Header />
-      </header>
-      <Features data-aos="fade-up" />
-      <Faq />
-      <Download />
-      <MultiItemCarousel />
-      {/* <Subscribe /> */}
-      <Footer />
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/features' element={<Features />} />
+        <Route exact path='/faq' element={<Faq />} />
+        <Route exact path='/download' element={<Download />} />
+        {/* <Route exact path='/career' element={< Career />}></Route> */}
+      </Routes>
+      <Footer/>
+    </Router>
   );
 }
 

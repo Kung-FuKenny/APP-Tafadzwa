@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from "react";
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { Button } from "react-bootstrap";
 
 //import { SiAnaconda } from "react-icons/si";
@@ -37,19 +37,19 @@ const Navbar = () => {
           id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#features">About Us</a>
+            <Link to="/features">About Us</Link>
           </li>
           <li>
-            <a href="#faq">Recruitment</a>
+            <Link to="/faq">Recruitment</Link>
           </li>
           <li>
-            <a href="#download">Target</a>
+            <Link to="#download">Target</Link>
           </li>
           <li>
-            <a href="https://t-career.vercel.app/">Career</a>
+            <Link to="https://t-career.vercel.app/">Career</Link>
           </li>
           <li>
             <a href="https://t-career.vercel.app/#faq/">Contact</a>
