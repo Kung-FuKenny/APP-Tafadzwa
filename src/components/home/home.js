@@ -24,12 +24,12 @@ function Home() {
     return (
         <div>
                 <Header />
-                <Features data-aos="fade-up" />
-            <Faq />
+                {/* <Features data-aos="fade-up" />
+            {/* <Faq />
             <Download />
             <MultiItemCarousel />
-            <Subscribe />
-            <Footer />
+            <Subscribe /> */} 
+            {/* <Footer /> */}
         </div>
     );
 }

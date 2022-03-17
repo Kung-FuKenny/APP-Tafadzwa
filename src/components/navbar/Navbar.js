@@ -46,7 +46,7 @@ const Navbar = () => {
             <Link to="/faq">Recruitment</Link>
           </li>
           <li>
-            <Link to="#download">Target</Link>
+            <Link to="/download">Target</Link>
           </li>
           <li>
             <Link to="https://t-career.vercel.app/">Career</Link>

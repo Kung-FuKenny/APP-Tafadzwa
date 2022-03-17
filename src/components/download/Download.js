@@ -5,6 +5,9 @@ import "./Download.css";
 import { IconContext } from "react-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MultiItemCarousel from "../../MultiItemCarousel";
+import "../../MultiItemCarousel.css";
+import "../../carousel.css";
 
 const Download = () => {
   useEffect(() => {
@@ -53,6 +56,7 @@ const Download = () => {
           </div>
         </div>
       </div>
+      <MultiItemCarousel/>
     </section>
   );
 };
