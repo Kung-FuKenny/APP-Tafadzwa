@@ -5,5 +5,6 @@ export { default as Download } from "./download/Download";
 export { default as Subscribe } from "./subscribe/Subscribe";
 export { default as Faq } from "./faq/Faq";
 export { default as Career } from "./career/career";
-export { default as Contact } from "./contact/";
+export { default as Grids } from "./job/Grids"
+export { default as Contact } from "./contact/Contact";
 export { default as Footer } from "./footer/Footer";

@@ -16,7 +16,6 @@ import {
   Download,
   Career,
   Contact,
-  Faq,
   Footer,
 } from "./components";
 
@@ -28,7 +27,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/features' element={<Features />} />
-        <Route exact path='/faq' element={<Faq />} />
+        {/* <Route exact path='/faq' element={<Faq />} /> */}
         <Route exact path='/download' element={<Download />} />
         <Route exact path='/career' element={< Career />}/>
         <Route exact path='/contact' element={< Contact />}/>

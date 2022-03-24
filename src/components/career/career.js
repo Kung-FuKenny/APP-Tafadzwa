@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import "./career.css";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
-import { BsMouse } from "react-icons/bs";
+import "../job/Grids";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Header = () => {
+const Career = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -28,12 +28,8 @@ const Header = () => {
           </div>
         </div>
         <div className="header-right" data-aos="fade-left">
+        <Grids />
         </div>
-      </div>
-      <div className="floating-icon">
-        <a href="#grids">
-          <BsMouse color="#fff" size={25} className="mouse" />
-        </a>
       </div>
     </section>
   );

@@ -49,10 +49,10 @@ const Navbar = () => {
             <Link to="/download">Target</Link>
           </li>
           <li>
-            <Link to="https://t-career.vercel.app/">Career</Link>
+            <Link to="/career">Career</Link>
           </li>
           <li>
-            <a href="https://t-career.vercel.app/#faq/">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
 
           {/* <li>
